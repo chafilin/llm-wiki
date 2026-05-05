@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "694e6617c1c7ef1d",
+    "type": "split",
+    "children": [
+      {
+        "id": "20e5068917c58e77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b8e34cfcd550b04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "010093b7587b080b",
+    "type": "split",
+    "children": [
+      {
+        "id": "88801948291a9354",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f6fa3ec6454eb824",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ad1477edd47ee6aa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a6c17d7a9059955e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "99a3015949d91618",
+    "type": "split",
+    "children": [
+      {
+        "id": "01db6f117ffd62d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ab2b92a812073a2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for index"
+            }
+          },
+          {
+            "id": "6d3423258964f08b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from index"
+            }
+          },
+          {
+            "id": "507e0d8ac7b05dc6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ae663bfeb218ac95",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "39852e61ce4b5591",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "index.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "5b8e34cfcd550b04",
+  "lastOpenFiles": [
+    "wiki/people/Mahan.md",
+    "wiki/domains/Dev Setup & Tools.md",
+    "wiki/concepts/Cognitive Debt.md",
+    "wiki/concepts/Complexity.md",
+    "index.md",
+    "wiki/sources/Your Brain on ChatGPT — Cognitive Debt.md",
+    "log.md",
+    "MCP Explainer.md",
+    "raw/articles/2506.08872v2.pdf",
+    "wiki/concepts/Mutation Testing.md",
+    "raw/articles/Untitled.md",
+    "wiki/concepts/Snapshot Testing.md",
+    "wiki/concepts/Test Linting.md",
+    "wiki/concepts/Testing Philosophy.md",
+    "raw/articles/Codecov — Why Patch Coverage Matters More.md",
+    "wiki/concepts/Test Coverage.md",
+    "raw/articles/GitLab — Frontend Testing Standards.md",
+    "wiki/concepts/Chesterton's Fence.md",
+    "wiki/concepts/Developer Experience.md",
+    "wiki/concepts/CI Pipeline Speed.md",
+    "wiki/sources/Frontend Case Studies Index.md",
+    "wiki/sources/Buildkite — Case Studies.md",
+    "wiki/sources/Spotify Backstage — Soundcheck.md",
+    "wiki/sources/Spotify Backstage — Software Catalog.md",
+    "wiki/sources/Buildkite — Applying SRE Principles to CI-CD.md",
+    "wiki/sources/Buildkite — Test Ownership Docs.md",
+    "wiki/sources/Atlassian Developer Experience — LinearB.md",
+    "skills-lock.json",
+    "raw/notes/Additional docs for spotahome/Scanned Documents.pdf",
+    "raw/notes/AGENTS.md/og.png",
+    "raw/notes/🪴 Мои растения/1500_x_1500-10in_White_Bird_of_Paradise_in_Weave_Rope_2-bio-image-desktop.webp",
+    "raw/notes/Барды/image.png",
+    "raw/notes/Барды/IMAGE 2025-05-23 23:50:48.jpg",
+    "raw/notes/Барды/IMAGE 2025-05-23 23:24:03.jpg",
+    "raw/notes/Барды/IMAGE 2025-05-23 22:32:02.jpg",
+    "raw/notes/Барды/IMAGE 2025-05-23 01:16:49.jpg",
+    "raw/notes/Барды/IMAGE 2025-05-17 17:48:01.jpg",
+    "raw/notes/Барды/IMAGE 2025-05-13 22:45:21.jpg",
+    "raw/notes/Барды/IMAGE 2025-05-13 22:27:12.jpg",
+    "raw/notes/Барды",
+    "raw/notes/Лазанья Болоньезе",
+    "raw/notes/GPT-5 for Coding",
+    "raw/notes/Docs for spotahome/statement.pdf",
+    "raw/notes/Docs for spotahome/Scanned Documents 2.pdf",
+    "raw/notes/Docs for spotahome/Scanned Documents 3.pdf",
+    "raw/notes/Docs for spotahome"
+  ]
+}
