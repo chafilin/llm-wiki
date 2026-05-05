@@ -1,4 +1,4 @@
-# Index
+co# Index
 
 *Updated by Claude on every ingest. Read this first when answering queries.*
 
