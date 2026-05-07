@@ -55,3 +55,25 @@ Source summaries created (57 pages in wiki/sources/):
 New domain pages: wiki/domains/Web Security.md, wiki/domains/Web Performance.md
 New concept pages: wiki/concepts/Core Web Vitals.md, wiki/concepts/JavaScript Memory Management.md, wiki/concepts/Responsive Design.md
 Index updated: added 3 concepts, 2 domains
+
+## [2026-05-07] ingest | 19 articles batch (12factor.net, Typecraft, Evil Martians, Infrequently Noted, freeCodeCamp, Harvard)
+Added to raw/articles/:
+  12factor.net (13): index + all 12 individual factors (Codebase through Admin Processes)
+  Typecraft — When Technical Debt is the Right Answer
+  Evil Martians — Better Web Video with AV1 Codec
+  Infrequently Noted — If Not React Then What
+  freeCodeCamp — Learn System Design Principles
+  Harvard — Exercising Leadership Foundational Principles
+Index updated: 19 new raw article entries
+
+## [2026-05-07] ingest | When Technical Debt is the Right Answer — Typecraft
+Pages created: wiki/sources/Typecraft — When Technical Debt is the Right Answer.md, wiki/concepts/Technical Debt.md
+Pages updated: wiki/domains/Software Development.md (technical debt section)
+
+## [2026-05-07] ingest | Better Web Video with AV1 Codec — Evil Martians
+Pages created: wiki/sources/Evil Martians — Better Web Video with AV1 Codec.md
+Pages updated: wiki/domains/Web Performance.md (media optimization section)
+
+## [2026-05-07] ingest | If Not React, Then What? — Infrequently Noted
+Pages created: wiki/sources/Infrequently Noted — If Not React Then What.md, wiki/concepts/Frontend Architecture.md
+Pages updated: wiki/domains/Software Development.md (frontend section expanded)

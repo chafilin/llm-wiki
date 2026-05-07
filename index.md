@@ -8,6 +8,8 @@
 | [[Core Web Vitals]] | LCP (2.5s) / CLS (0.1) / INP (200ms) at 75th percentile; threshold methodology; measurement tools; optimization patterns |
 | [[JavaScript Memory Management]] | GC roots, shallow vs retained size, 6 leak patterns (globals, closures, timers, listeners, cache, detached DOM), DevTools profiling workflow |
 | [[Responsive Design]] | Responsive (fluid, Marcotte) vs Adaptive (6 fixed breakpoints, Gustafson); trade-offs: SEO vs speed vs cost vs control |
+| [[Technical Debt]] | Fowler's quadrant (Reckless/Prudent × Deliberate/Inadvertent); omega messes; three tiers of consequence; five questions before incurring |
+| [[Frontend Architecture]] | SPA threshold (>10min sessions + >10 updates); use-case taxonomy; Rule of Least Client-Side Complexity; progressive enhancement |
 | [[Complexity]] | The invisible accumulation of interdependencies that makes systems hard to change; central enemy of good software |
 | [[Locality of Behavior]] | Put code on the thing that does the thing; prefer understanding-in-place over SoC file-splitting |
 | [[Chesterton's Fence]] | Don't remove what you don't understand yet |
@@ -168,6 +170,24 @@
 | [[Chrome DevTools — Memory — Allocation Timeline]] | raw/articles/Chrome DevTools — Memory — Allocation Timeline.md | 2026-05-07 |
 | [[ditdot — JavaScript Memory Leaks]] | raw/articles/ditdot — JavaScript Memory Leaks.md | 2026-05-07 |
 | [[Interaction Design Foundation — Adaptive vs Responsive Design]] | raw/articles/Interaction Design Foundation — Adaptive vs Responsive Design.md | 2026-05-07 |
+| [[Harvard — Exercising Leadership Foundational Principles]] | raw/articles/Harvard — Exercising Leadership Foundational Principles.md | 2026-05-07 |
+| [[Typecraft — When Technical Debt is the Right Answer]] | raw/articles/Typecraft — When Technical Debt is the Right Answer.md | 2026-05-07 |
+| [[Evil Martians — Better Web Video with AV1 Codec]] | raw/articles/Evil Martians — Better Web Video with AV1 Codec.md | 2026-05-07 |
+| [[Infrequently Noted — If Not React Then What]] | raw/articles/Infrequently Noted — If Not React Then What.md | 2026-05-07 |
+| [[freeCodeCamp — Learn System Design Principles]] | raw/articles/freeCodeCamp — Learn System Design Principles.md | 2026-05-07 |
+| [[12factor.net — The Twelve-Factor App]] | raw/articles/12factor.net — The Twelve-Factor App.md | 2026-05-07 |
+| [[12factor.net — I Codebase]] | raw/articles/12factor.net — I Codebase.md | 2026-05-07 |
+| [[12factor.net — II Dependencies]] | raw/articles/12factor.net — II Dependencies.md | 2026-05-07 |
+| [[12factor.net — III Config]] | raw/articles/12factor.net — III Config.md | 2026-05-07 |
+| [[12factor.net — IV Backing Services]] | raw/articles/12factor.net — IV Backing Services.md | 2026-05-07 |
+| [[12factor.net — V Build Release Run]] | raw/articles/12factor.net — V Build Release Run.md | 2026-05-07 |
+| [[12factor.net — VI Processes]] | raw/articles/12factor.net — VI Processes.md | 2026-05-07 |
+| [[12factor.net — VII Port Binding]] | raw/articles/12factor.net — VII Port Binding.md | 2026-05-07 |
+| [[12factor.net — VIII Concurrency]] | raw/articles/12factor.net — VIII Concurrency.md | 2026-05-07 |
+| [[12factor.net — IX Disposability]] | raw/articles/12factor.net — IX Disposability.md | 2026-05-07 |
+| [[12factor.net — X Dev Prod Parity]] | raw/articles/12factor.net — X Dev Prod Parity.md | 2026-05-07 |
+| [[12factor.net — XI Logs]] | raw/articles/12factor.net — XI Logs.md | 2026-05-07 |
+| [[12factor.net — XII Admin Processes]] | raw/articles/12factor.net — XII Admin Processes.md | 2026-05-07 |
 
 ## Synthesis
 | Page | Question | Date |

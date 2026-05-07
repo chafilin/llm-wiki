@@ -2,7 +2,7 @@
 title: Web Performance
 type: entity
 updated: 2026-05-07
-sources: 16
+sources: 17
 ---
 
 ## Overview
@@ -24,6 +24,14 @@ Web performance is measured through user-centric metrics that answer four questi
 - **Custom metrics** via Performance Observer API: User Timing for arbitrary intervals, Long Animation Frames API (Chrome 123+) supersedes Long Tasks API, Element Timing for specific elements, Event Timing for interaction latency. [[web.dev — Performance — Custom Metrics]]
 - **Back/forward cache** (bfcache) dramatically improves CLS for navigation-heavy sites. Ensure bfcache eligibility by removing incompatible patterns. [[web.dev — Performance — Optimize CLS]]
 - **Debug layout shifts**: Layout Instability API with `PerformanceObserver`, DevTools Performance panel purple bars, `Layout Shift Regions` rendering flag for visual overlay. Sources array identifies shifted elements but may not be the root cause. [[web.dev — Performance — Debug Layout Shifts]]
+
+## Media optimization
+
+- **Replace GIFs with `<video>`**: AV1 is 20–40× smaller than GIF; `<video autoplay loop muted playsinline>` replicates GIF behavior with no JS. [[Evil Martians — Better Web Video with AV1 Codec]]
+- **Two-source strategy**: AV1 + Opus (modern browsers) as first `<source>`, H.264 + AAC as fallback. Browsers pick the first supported format. [[Evil Martians — Better Web Video with AV1 Codec]]
+- **AV1 vs H.264**: 30–50% smaller at equivalent quality. Hardware decode requires iPhone 15+, M3 Mac; older devices fall back gracefully.
+- **ffmpeg encoder**: use `libsvtav1` (SVT-AV1) — faster than `libaom-av1`. Key flags: `-qp 30`, `-movflags +faststart`, `-pix_fmt yuv420p`.
+- Media is often the LCP element — AV1 video replacing a large hero image or GIF directly improves LCP load duration.
 
 ## Open questions
 

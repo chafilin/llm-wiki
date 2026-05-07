@@ -1,8 +1,8 @@
 ---
 title: Software Development
 type: entity
-updated: 2026-05-04
-sources: 30
+updated: 2026-05-07
+sources: 31
 ---
 
 ## Overview
@@ -44,6 +44,16 @@ A collection of principles and hard-won instincts about how to build software th
 - SPA frameworks (React) add a second complexity demon on top of the backend. The tradeoff is real and often not made consciously.
 - The alternative — htmx-style locality — keeps HTML as the source of truth and behavior attached to the element.
 - Frontend is more fad-prone than backend. Most "revolutionary" ideas have been tried before.
+- **SPA threshold** (Russell): build a SPA only if sessions average >10 min AND >10 updates to same data per session. Most sites fail both. [[Frontend Architecture]] [[Infrequently Noted — If Not React Then What]]
+- **Rule of Least Client-Side Complexity**: server code runs in controlled conditions; client code runs on unknown hardware. Ship less JS. HTML and CSS degrade gracefully and compress better.
+- "React is the industry standard" is a myth — no two React setups are identical. The claim conflates familiarity with necessity. [[Frontend Architecture]]
+
+## Technical debt
+
+- Use Fowler's quadrant to classify debt: Reckless vs. Prudent × Deliberate vs. Inadvertent. Only Prudent-Deliberate debt is actually strategic. [[Technical Debt]]
+- The central question before incurring debt: **will this feature persist?** Mission-critical = invest properly. Disposable = omega mess is fine. [[Typecraft — When Technical Debt is the Right Answer]]
+- Three tiers by consequence: The Good (upgradeable shortcuts), The Bad (hidden friction that compounds), The Ugly (entrenching — business logic in wrong places). [[Technical Debt]]
+- Document debt with rationale and a scheduled repayment — silent accumulation is what kills teams.
 
 ## Open questions
 - Where does LoB break down at scale? Design systems, shared logic across many features?
