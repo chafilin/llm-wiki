@@ -77,3 +77,7 @@ Pages updated: wiki/domains/Web Performance.md (media optimization section)
 ## [2026-05-07] ingest | If Not React, Then What? — Infrequently Noted
 Pages created: wiki/sources/Infrequently Noted — If Not React Then What.md, wiki/concepts/Frontend Architecture.md
 Pages updated: wiki/domains/Software Development.md (frontend section expanded)
+
+## [2026-05-07] ingest | The Twelve-Factor App — 12factor.net
+Pages created: wiki/sources/12factor.net — The Twelve-Factor App.md, wiki/concepts/Twelve-Factor App.md
+Pages updated: wiki/domains/Software Development.md (application architecture section added)

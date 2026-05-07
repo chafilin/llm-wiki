@@ -10,6 +10,7 @@
 | [[Responsive Design]] | Responsive (fluid, Marcotte) vs Adaptive (6 fixed breakpoints, Gustafson); trade-offs: SEO vs speed vs cost vs control |
 | [[Technical Debt]] | Fowler's quadrant (Reckless/Prudent × Deliberate/Inadvertent); omega messes; three tiers of consequence; five questions before incurring |
 | [[Frontend Architecture]] | SPA threshold (>10min sessions + >10 updates); use-case taxonomy; Rule of Least Client-Side Complexity; progressive enhancement |
+| [[Twelve-Factor App]] | Config in env vars; stateless processes; dev/prod parity; logs as stdout streams; disposability; admin processes as one-offs |
 | [[Complexity]] | The invisible accumulation of interdependencies that makes systems hard to change; central enemy of good software |
 | [[Locality of Behavior]] | Put code on the thing that does the thing; prefer understanding-in-place over SoC file-splitting |
 | [[Chesterton's Fence]] | Don't remove what you don't understand yet |

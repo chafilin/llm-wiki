@@ -48,6 +48,15 @@ A collection of principles and hard-won instincts about how to build software th
 - **Rule of Least Client-Side Complexity**: server code runs in controlled conditions; client code runs on unknown hardware. Ship less JS. HTML and CSS degrade gracefully and compress better.
 - "React is the industry standard" is a myth — no two React setups are identical. The claim conflates familiarity with necessity. [[Frontend Architecture]]
 
+## Application architecture and deployment
+
+- **Config in env vars** (Twelve-Factor III): never in code or config files. Test: can you open-source the repo without leaking secrets? [[Twelve-Factor App]]
+- **Stateless processes** (VI): no in-memory state between requests, no sticky sessions. Persistent state → Redis or DB. This is the prerequisite for horizontal scaling. [[Twelve-Factor App]]
+- **Dev/prod parity** (X): same backing services locally as in production. SQLite local + Postgres prod is the canonical violation — breaks in subtle ways. [[Twelve-Factor App]]
+- **Logs as streams** (XI): write to stdout, let the platform route and store. Logfiles in containers are anti-patterns. [[Twelve-Factor App]]
+- **Admin processes** (XII): migrations and scripts run as one-off processes against the same release as the running app — same deps, same config. [[Twelve-Factor App]]
+- **Disposability** (IX): fast startup, graceful SIGTERM shutdown, jobs must be reentrant. [[Twelve-Factor App]]
+
 ## Technical debt
 
 - Use Fowler's quadrant to classify debt: Reckless vs. Prudent × Deliberate vs. Inadvertent. Only Prudent-Deliberate debt is actually strategic. [[Technical Debt]]

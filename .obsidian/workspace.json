@@ -182,6 +182,8 @@
   },
   "active": "b5119750ebd98676",
   "lastOpenFiles": [
+    "wiki/concepts/Twelve-Factor App.md",
+    "wiki/sources/12factor.net — The Twelve-Factor App.md",
     "wiki/concepts/Frontend Architecture.md",
     "wiki/sources/Infrequently Noted — If Not React Then What.md",
     "wiki/sources/Evil Martians — Better Web Video with AV1 Codec.md",
@@ -206,8 +208,6 @@
     "raw/articles/Typecraft — When Technical Debt is the Right Answer.md",
     "raw/articles/Harvard — Exercising Leadership Foundational Principles.md",
     "wiki/concepts/JavaScript Memory Management.md",
-    "wiki/concepts/Flaky Tests.md",
-    "wiki/concepts/FOLD.md",
     "raw/articles/2506.08872v2.pdf",
     "skills-lock.json",
     "raw/notes/Additional docs for spotahome/Scanned Documents.pdf",
