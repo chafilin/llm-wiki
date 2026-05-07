@@ -1,2 +1,0 @@
-# Metropolitan magazine Barcelona 
-#read

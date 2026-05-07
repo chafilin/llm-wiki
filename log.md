@@ -23,3 +23,7 @@ Pages updated: wiki/domains/Dev Setup & Tools.md (cognitive cost of AI tool use 
 ## [2026-05-04] ingest | raw/notes (bulk — all notes)
 Pages created: wiki/self/overview.md, wiki/self/goals.md, wiki/self/health.md, wiki/people/mahan.md, wiki/domains/barcelona-life.md, wiki/domains/finance.md, wiki/domains/entertainment.md, wiki/domains/home.md, wiki/domains/dev-setup.md, wiki/domains/dnd.md, wiki/sources/measure-what-matters.md, wiki/sources/mcp-explainer.md
 Skipped (operational/one-off): visa docs, apartment docs, letter drafts, work messages, flight tickets, document scans, empty notes
+
+## [2026-05-07] cleanup | removed personal notes
+Deleted: raw/notes/ (entire directory), wiki/self/, wiki/people/, wiki/domains/Barcelona Life.md, wiki/domains/D&D Campaigns & Characters.md, wiki/domains/Entertainment.md, wiki/domains/Finance.md, wiki/domains/Home.md, wiki/sources/Measure What Matters — John Doerr.md
+Kept: all research (raw/articles/, wiki/sources/, wiki/concepts/, wiki/domains/Software Development.md, wiki/domains/Dev Setup & Tools.md)

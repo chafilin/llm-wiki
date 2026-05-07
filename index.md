@@ -1,18 +1,6 @@
-co# Index
+# Index
 
 *Updated by Claude on every ingest. Read this first when answering queries.*
-
-## Self
-| Page | Summary |
-|------|---------|
-| [[Self — Professional Overview]] | Work patterns, strengths, recurring issues (optimistic estimates, late visibility, stubbornness on problems) |
-| [[Goals & OKRs]] | 2025 personal goals + work OKRs; habit goals (sleep, health, routine) |
-| [[Health]] | Active medications (Minocin, Beta-miconazole); Spain healthcare |
-
-## People
-| Page | Summary |
-|------|---------|
-| [[Mahan]] | Partner; relocated to Barcelona together in 2025 |
 
 ## Concepts
 | Page | Summary |
@@ -36,18 +24,12 @@ co# Index
 | Page | Summary |
 |------|---------|
 | [[Software Development]] | Principles for building maintainable software; complexity-reduction as the through-line; CI hierarchy; test quality |
-| [[Barcelona Life]] | Spain relocation status, key docs (NIE, TIE, padrones), apartment, cafes |
-| [[Finance]] | Revolut EUR, KICB, Kyrgyz ИП, tax IDs |
-| [[Entertainment]] | Movies, anime, fiction books to watch/read |
-| [[Home]] | Plants, recipes |
 | [[Dev Setup & Tools]] | Apps (Things 3, Bear, Zed, Ghostty), AI tools, MCP notes |
-| [[D&D Campaigns & Characters]] | Three characters: Иммераль (Strada), Нир Кано (Pirates), Бард |
 
 ## Sources
 | Page | Raw file | Date |
 |------|----------|------|
 | [[The Grug Brained Developer]] | raw/articles/The Grug Brained Developer.md | 2026-05-04 |
-| [[Measure What Matters — John Doerr]] | raw/notes/Измеряйте самое важное — Джон Дорр.md | 2026-05-04 |
 | [[MCP — Model Context Protocol]] | raw/notes/MCP.md | 2026-05-04 |
 | [[Successfully Merging the Work of 1000+ Developers]] | raw/articles/Successfully Merging the Work of 1000+ Developers.md | 2026-05-04 |
 | [[Keeping Developers Happy with a Fast CI]] | raw/articles/Keeping Developers Happy with a Fast CI.md | 2026-05-04 |

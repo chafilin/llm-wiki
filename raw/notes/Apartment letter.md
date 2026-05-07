@@ -1,3 +1,0 @@
-# Apartment letter
-We are a married couple who have been together for over 10 years. We do not have any children or pets. We are 28-29 years old. I work as a programmer for a international company, Manychat, while my wife studies to become a game designer. Our main hobbies are playing board and computer games, swimming, and soccer. We are homebodies, but after our arrival, we want to explore Barcelona as much as possible and lead a more active lifestyle, going out and traveling in general. We love holidays and delicious gatherings with friends, but we always respect our neighbors and do not cause any inconvenience.
-#relocation
