@@ -5,6 +5,9 @@
 ## Concepts
 | Page | Summary |
 |------|---------|
+| [[Core Web Vitals]] | LCP (2.5s) / CLS (0.1) / INP (200ms) at 75th percentile; threshold methodology; measurement tools; optimization patterns |
+| [[JavaScript Memory Management]] | GC roots, shallow vs retained size, 6 leak patterns (globals, closures, timers, listeners, cache, detached DOM), DevTools profiling workflow |
+| [[Responsive Design]] | Responsive (fluid, Marcotte) vs Adaptive (6 fixed breakpoints, Gustafson); trade-offs: SEO vs speed vs cost vs control |
 | [[Complexity]] | The invisible accumulation of interdependencies that makes systems hard to change; central enemy of good software |
 | [[Locality of Behavior]] | Put code on the thing that does the thing; prefer understanding-in-place over SoC file-splitting |
 | [[Chesterton's Fence]] | Don't remove what you don't understand yet |
@@ -25,6 +28,8 @@
 |------|---------|
 | [[Software Development]] | Principles for building maintainable software; complexity-reduction as the through-line; CI hierarchy; test quality |
 | [[Dev Setup & Tools]] | Apps (Things 3, Bear, Zed, Ghostty), AI tools, MCP notes |
+| [[Web Security]] | Attacks (XSS/CSRF/SSRF/supply chain), defenses (SOP/TLS/SRI), authentication (passkeys/passwords/sessions/OTP/OIDC), practical headers (CSP/CORS/cookies/HSTS/CORP), OWASP Top 10, threat modeling |
+| [[Web Performance]] | Core Web Vitals (LCP/CLS/INP), supporting metrics (TTFB/FCP/TBT), custom metrics APIs, measurement tools, optimization techniques |
 
 ## Sources
 | Page | Raw file | Date |
@@ -106,6 +111,63 @@
 | [[Buildkite — Case Studies]] | raw/articles/Buildkite — Case Studies.md | 2026-05-04 |
 | [[Frontend Case Studies Index]] | raw/articles/Frontend Case Studies Index.md | 2026-05-04 |
 | [[Your Brain on ChatGPT — Cognitive Debt]] | raw/articles/2506.08872v2.pdf | 2026-05-04 |
+| [[MDN — Security — XSS]] | raw/articles/MDN — Security — XSS.md | 2026-05-07 |
+| [[MDN — Security — CSRF]] | raw/articles/MDN — Security — CSRF.md | 2026-05-07 |
+| [[MDN — Security — Clickjacking]] | raw/articles/MDN — Security — Clickjacking.md | 2026-05-07 |
+| [[MDN — Security — IDOR]] | raw/articles/MDN — Security — IDOR.md | 2026-05-07 |
+| [[MDN — Security — Prototype Pollution]] | raw/articles/MDN — Security — Prototype Pollution.md | 2026-05-07 |
+| [[MDN — Security — MITM]] | raw/articles/MDN — Security — MITM.md | 2026-05-07 |
+| [[MDN — Security — Phishing]] | raw/articles/MDN — Security — Phishing.md | 2026-05-07 |
+| [[MDN — Security — SSRF]] | raw/articles/MDN — Security — SSRF.md | 2026-05-07 |
+| [[MDN — Security — Subdomain Takeover]] | raw/articles/MDN — Security — Subdomain Takeover.md | 2026-05-07 |
+| [[MDN — Security — Supply Chain Attacks]] | raw/articles/MDN — Security — Supply Chain Attacks.md | 2026-05-07 |
+| [[MDN — Security — Same-Origin Policy]] | raw/articles/MDN — Security — Same-Origin Policy.md | 2026-05-07 |
+| [[MDN — Security — Mixed Content]] | raw/articles/MDN — Security — Mixed Content.md | 2026-05-07 |
+| [[MDN — Security — Transport Layer Security]] | raw/articles/MDN — Security — Transport Layer Security.md | 2026-05-07 |
+| [[MDN — Security — Subresource Integrity]] | raw/articles/MDN — Security — Subresource Integrity.md | 2026-05-07 |
+| [[MDN — Security — Certificate Transparency]] | raw/articles/MDN — Security — Certificate Transparency.md | 2026-05-07 |
+| [[MDN — Security — Secure Contexts]] | raw/articles/MDN — Security — Secure Contexts.md | 2026-05-07 |
+| [[MDN — Security — User Activation]] | raw/articles/MDN — Security — User Activation.md | 2026-05-07 |
+| [[MDN — Security — Passkeys]] | raw/articles/MDN — Security — Passkeys.md | 2026-05-07 |
+| [[MDN — Security — Passwords]] | raw/articles/MDN — Security — Passwords.md | 2026-05-07 |
+| [[MDN — Security — Session Management]] | raw/articles/MDN — Security — Session Management.md | 2026-05-07 |
+| [[MDN — Security — OTP]] | raw/articles/MDN — Security — OTP.md | 2026-05-07 |
+| [[MDN — Security — Federated Identity]] | raw/articles/MDN — Security — Federated Identity.md | 2026-05-07 |
+| [[MDN — Security — CSP Implementation]] | raw/articles/MDN — Security — CSP Implementation.md | 2026-05-07 |
+| [[MDN — Security — CORS Configuration]] | raw/articles/MDN — Security — CORS Configuration.md | 2026-05-07 |
+| [[MDN — Security — Cookie Configuration]] | raw/articles/MDN — Security — Cookie Configuration.md | 2026-05-07 |
+| [[MDN — Security — MIME Type Verification]] | raw/articles/MDN — Security — MIME Type Verification.md | 2026-05-07 |
+| [[MDN — Security — Referrer Policy]] | raw/articles/MDN — Security — Referrer Policy.md | 2026-05-07 |
+| [[MDN — Security — TLS Configuration]] | raw/articles/MDN — Security — TLS Configuration.md | 2026-05-07 |
+| [[MDN — Security — CORP]] | raw/articles/MDN — Security — CORP.md | 2026-05-07 |
+| [[MDN — Security — Threat Modeling]] | raw/articles/MDN — Security — Threat Modeling.md | 2026-05-07 |
+| [[OWASP 2021 — A06 Vulnerable and Outdated Components]] | raw/articles/OWASP 2021 — A06 Vulnerable and Outdated Components.md | 2026-05-07 |
+| [[OWASP 2021 — A07 Identification and Authentication Failures]] | raw/articles/OWASP 2021 — A07 Identification and Authentication Failures.md | 2026-05-07 |
+| [[OWASP 2021 — A08 Software and Data Integrity Failures]] | raw/articles/OWASP 2021 — A08 Software and Data Integrity Failures.md | 2026-05-07 |
+| [[OWASP 2021 — A09 Security Logging and Monitoring Failures]] | raw/articles/OWASP 2021 — A09 Security Logging and Monitoring Failures.md | 2026-05-07 |
+| [[OWASP 2021 — A10 SSRF]] | raw/articles/OWASP 2021 — A10 SSRF.md | 2026-05-07 |
+| [[web.dev — Performance — User-Centric Metrics]] | raw/articles/web.dev — Performance — User-Centric Metrics.md | 2026-05-07 |
+| [[web.dev — Performance — LCP]] | raw/articles/web.dev — Performance — LCP.md | 2026-05-07 |
+| [[web.dev — Performance — CLS]] | raw/articles/web.dev — Performance — CLS.md | 2026-05-07 |
+| [[web.dev — Performance — INP]] | raw/articles/web.dev — Performance — INP.md | 2026-05-07 |
+| [[web.dev — Performance — TTFB]] | raw/articles/web.dev — Performance — TTFB.md | 2026-05-07 |
+| [[web.dev — Performance — FCP]] | raw/articles/web.dev — Performance — FCP.md | 2026-05-07 |
+| [[web.dev — Performance — TBT]] | raw/articles/web.dev — Performance — TBT.md | 2026-05-07 |
+| [[web.dev — Performance — Custom Metrics]] | raw/articles/web.dev — Performance — Custom Metrics.md | 2026-05-07 |
+| [[web.dev — Performance — Web Vitals]] | raw/articles/web.dev — Performance — Web Vitals.md | 2026-05-07 |
+| [[web.dev — Performance — Stick to Compositor-Only Properties]] | raw/articles/web.dev — Performance — Stick to Compositor-Only Properties.md | 2026-05-07 |
+| [[web.dev — Performance — Optimize LCP]] | raw/articles/web.dev — Performance — Optimize LCP.md | 2026-05-07 |
+| [[web.dev — Performance — Optimize CLS]] | raw/articles/web.dev — Performance — Optimize CLS.md | 2026-05-07 |
+| [[web.dev — Performance — Optimize INP]] | raw/articles/web.dev — Performance — Optimize INP.md | 2026-05-07 |
+| [[web.dev — Performance — Getting Started Measuring Web Vitals]] | raw/articles/web.dev — Performance — Getting Started Measuring Web Vitals.md | 2026-05-07 |
+| [[web.dev — Performance — Defining Core Web Vitals Thresholds]] | raw/articles/web.dev — Performance — Defining Core Web Vitals Thresholds.md | 2026-05-07 |
+| [[web.dev — Performance — Debug Layout Shifts]] | raw/articles/web.dev — Performance — Debug Layout Shifts.md | 2026-05-07 |
+| [[Chrome DevTools — Memory — Fix Memory Problems]] | raw/articles/Chrome DevTools — Memory — Fix Memory Problems.md | 2026-05-07 |
+| [[Chrome DevTools — Memory — Memory Terminology]] | raw/articles/Chrome DevTools — Memory — Memory Terminology.md | 2026-05-07 |
+| [[Chrome DevTools — Memory — Heap Snapshots]] | raw/articles/Chrome DevTools — Memory — Heap Snapshots.md | 2026-05-07 |
+| [[Chrome DevTools — Memory — Allocation Timeline]] | raw/articles/Chrome DevTools — Memory — Allocation Timeline.md | 2026-05-07 |
+| [[ditdot — JavaScript Memory Leaks]] | raw/articles/ditdot — JavaScript Memory Leaks.md | 2026-05-07 |
+| [[Interaction Design Foundation — Adaptive vs Responsive Design]] | raw/articles/Interaction Design Foundation — Adaptive vs Responsive Design.md | 2026-05-07 |
 
 ## Synthesis
 | Page | Question | Date |

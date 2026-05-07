@@ -27,3 +27,31 @@ Skipped (operational/one-off): visa docs, apartment docs, letter drafts, work me
 ## [2026-05-07] cleanup | removed personal notes
 Deleted: raw/notes/ (entire directory), wiki/self/, wiki/people/, wiki/domains/Barcelona Life.md, wiki/domains/D&D Campaigns & Characters.md, wiki/domains/Entertainment.md, wiki/domains/Finance.md, wiki/domains/Home.md, wiki/sources/Measure What Matters — John Doerr.md
 Kept: all research (raw/articles/, wiki/sources/, wiki/concepts/, wiki/domains/Software Development.md, wiki/domains/Dev Setup & Tools.md)
+
+## [2026-05-07] ingest | 57 articles batch (MDN Security, OWASP 2021, web.dev Performance, Chrome DevTools Memory)
+Added to raw/articles/:
+MDN Security attacks (10): XSS, CSRF, Clickjacking, IDOR, Prototype Pollution, MITM, Phishing, SSRF, Subdomain Takeover, Supply Chain Attacks
+MDN Security defenses (7): Same-Origin Policy, Mixed Content, TLS, Subresource Integrity, Certificate Transparency, Secure Contexts, User Activation
+MDN Security authentication (5): Passkeys, Passwords, Session Management, OTP, Federated Identity
+MDN Security practical guides (7): CSP Implementation, CORS Configuration, Cookie Configuration, MIME Type Verification, Referrer Policy, TLS Configuration, CORP
+MDN Security threat modeling (1): Threat Modeling
+OWASP 2021 (5): A06 Vulnerable Components, A07 Auth Failures, A08 Integrity Failures, A09 Logging Failures, A10 SSRF
+web.dev Performance (16): User-Centric Metrics, LCP, CLS, INP, TTFB, FCP, TBT, Custom Metrics, Web Vitals, Stick to Compositor-Only Properties, Optimize LCP, Optimize CLS, Optimize INP, Getting Started Measuring Web Vitals, Defining Core Web Vitals Thresholds, Debug Layout Shifts
+Chrome DevTools Memory (4): Fix Memory Problems, Memory Terminology, Heap Snapshots, Allocation Timeline
+Other (2): ditdot JavaScript Memory Leaks, Interaction Design Foundation Adaptive vs Responsive Design
+Skipped: sealights.io (404 after redirect), codingsans.com (402), sonarqube.org (no article content), restfulapi.net (403), OWASP 2021 A01-A05 (domain restriction), OWASP 2025 (404)
+
+## [2026-05-07] ingest | 57 articles ingested (MDN Security, OWASP 2021, web.dev Performance, Chrome DevTools Memory)
+Source summaries created (57 pages in wiki/sources/):
+  MDN Security attacks: XSS, CSRF, Clickjacking, IDOR, Prototype Pollution, MITM, Phishing, SSRF, Subdomain Takeover, Supply Chain Attacks
+  MDN Security defenses: Same-Origin Policy, Mixed Content, TLS, Subresource Integrity, Certificate Transparency, Secure Contexts, User Activation
+  MDN Security authentication: Passkeys, Passwords, Session Management, OTP, Federated Identity
+  MDN Security practical guides: CSP Implementation, CORS Configuration, Cookie Configuration, MIME Type Verification, Referrer Policy, TLS Configuration, CORP
+  MDN Security threat modeling: Threat Modeling
+  OWASP 2021: A06 Vulnerable Components, A07 Auth Failures, A08 Integrity Failures, A09 Logging Failures, A10 SSRF
+  web.dev Performance: User-Centric Metrics, LCP, CLS, INP, TTFB, FCP, TBT, Custom Metrics, Web Vitals, Stick to Compositor-Only Properties, Optimize LCP, Optimize CLS, Optimize INP, Getting Started Measuring Web Vitals, Defining Core Web Vitals Thresholds, Debug Layout Shifts
+  Chrome DevTools Memory: Fix Memory Problems, Memory Terminology, Heap Snapshots, Allocation Timeline
+  Other: JavaScript Memory Leaks (ditdot), Adaptive vs Responsive Design (IDF)
+New domain pages: wiki/domains/Web Security.md, wiki/domains/Web Performance.md
+New concept pages: wiki/concepts/Core Web Vitals.md, wiki/concepts/JavaScript Memory Management.md, wiki/concepts/Responsive Design.md
+Index updated: added 3 concepts, 2 domains
